@@ -35,3 +35,11 @@ filter := leveltravel.StatisticsPricesFilter{
 prices, err := lt.GetStatisticsPrices(filter)
 
 ```
+
+## Testing
+Unit-tests:
+
+
+```
+go test -v
+```
